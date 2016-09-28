@@ -10,6 +10,13 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
+            double a, z1, z2;
+            Console.WriteLine("введите альфа:");
+            a = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("результат1:");
+            z1 = (Math.Sin(Math.PI / 2 + 3 * (a))) / (1 - Math.Sin(3 * a - Math.PI));
+            Console.WriteLine(z1);
+
         }
     }
 }

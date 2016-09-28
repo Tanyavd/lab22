@@ -16,6 +16,13 @@ namespace ConsoleApplication1
             Console.WriteLine("результат1:");
             z1 = (Math.Sin(Math.PI / 2 + 3 * (a))) / (1 - Math.Sin(3 * a - Math.PI));
             Console.WriteLine(z1);
+            Console.WriteLine("результат2:");
+            z2 = Math.Cos((5 * Math.PI) / 4 + (3 * a) / 2) / Math.Sin((5 * Math.PI) / 4 + (3 * a) / 2);
+            Console.WriteLine(z2);
+
+            Console.ReadLine();
+
+
 
         }
     }

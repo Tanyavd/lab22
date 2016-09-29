@@ -21,7 +21,7 @@ namespace ConsoleApplication1
             Console.WriteLine(z2);
 
             Console.ReadLine();
-
+            Console.WriteLine("текст1");
 
 
         }
